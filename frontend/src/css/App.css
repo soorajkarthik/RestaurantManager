@@ -1,0 +1,81 @@
+.App {
+    text-align: center;
+}
+
+.App-logo {
+    height: 30vmin;
+    pointer-events: none;
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 1.5vmin);
+    color: white;
+}
+
+.Form-holder {
+    width: 100%;
+    text-align: center;
+    background-color: #282c34;
+    color: #fff;
+}
+
+.Form {
+    display: inline-block;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    min-width: 100%;
+}
+
+.Form-label {
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-align: right;
+}
+
+.Form-text {
+    margin-left: 10px;
+    padding-top: 0.45rem;
+    padding-bottom: 0.45rem;
+    font-size: large;
+}
+
+.Form-select,
+.Form-submit {
+    font-size: medium;
+    font-weight: 600;
+    padding: .6rem .8rem .5rem .8rem;
+    margin-left: 0.4rem;
+    box-shadow: 0 1px 0 1px rgba(0, 0, 0, .04);
+    border-radius: .5rem;
+    background-color: #fff;
+}
+
+footer {
+    text-align: center;
+    margin-top: 5rem;
+    padding: 3rem;
+    font-size: 1rem;
+    background-color: #282c34;
+    color: #fff;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}

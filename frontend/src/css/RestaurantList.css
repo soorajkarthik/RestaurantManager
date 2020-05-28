@@ -1,0 +1,19 @@
+.NoneFound {
+    margin-top: 4rem;
+    text-align: center;
+}
+
+.ListHolder {
+    width: 50%;
+    margin-left: 25%;
+    font-size: large;
+    color: #ddd;
+    font-weight: bold;
+    text-align: center;
+}
+
+.ListTitle {
+    color: #000;
+    text-align: center;
+    font-size: x-large;
+}
