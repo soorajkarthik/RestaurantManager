@@ -10,7 +10,7 @@ edition = "2018"
 postgres = "0.17.3"
 postgres-types = {version="0.1.1", features=["derive"]}
 dotenv = "0.15.0"
-rocket = "0.4.4"
+rocket = "0.4.7"
 rocket_contrib = "0.4.4"
 rocket_cors = "0.5.1"
 serde = "1.0.110"
